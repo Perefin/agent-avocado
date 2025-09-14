@@ -12,7 +12,11 @@ export default function Home() {
         className="mb-8"
         style={{ background: 'transparent' }}
       />
-      <h1 className="text-4xl font-bold text-gray-800">Coming Soon</h1>
+      <h1 className="text-4xl font-bold text-gray-800 text-center">Coming Soon
+        <br /><a href="https://demo.agentavocado.ai" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-800 underline text-sm">(Early Demo)</a>
+
+        
+      </h1>
     </div>
   );
 }
